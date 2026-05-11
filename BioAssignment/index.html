@@ -4,38 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neville Galletly</title>
+    <title>My Bio Page</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div><h1>Neville Galletly</h1></div>
-
-    <div><img id="photo" src="./photo.jpg" alt="" /></div>
-
-    <div>
-      <h2>Favorite Music Artists</h2>
-      <ul>
-        <li>my chemical romance</li>
-        <li>deadheaven</li>
-        <li>deftones</li>
-        <li>title fight</li>
-        <li>placebo</li>
-      </ul>
+    <div class="container">
+      <div class="row">
+        <div id="bio" class="col-12 col-lg-6 text-center">
+          <h1>Neville Galletly</h1>
+          <img src="photo.jpg" class="img-fluid" />
+        </div>
+        <div id="more" class="col-12 col-lg-6">
+          <h2>Favorite Music Artists</h2>
+          <ul>
+            <li>my chemical romance</li>
+            <li>deadheaven</li>
+            <li>deftones</li>
+            <li>title fight</li>
+            <li>placebo</li>
+          </ul>
+          <h2>Favorite Films</h2>
+          <ol>
+            <li>the fountain</li>
+            <li>lord of the rings</li>
+            <li>bladerunner 2049</li>
+            <li>princess mononoke</li>
+            <li>the departed</li>
+          </ol>
+          <a href="https://www.meta.com/" class="btn btn-primary"
+            >My Meta Profile</a
+          >
+        </div>
+      </div>
     </div>
-
-    <div>
-      <h2>Favorite Films</h2>
-      <ol>
-        <li>the fountain</li>
-        <li>lord of the rings</li>
-        <li>bladerunner 2049</li>
-        <li>princess mononoke</li>
-        <li>the departed</li>
-      </ol>
-    </div>
-
-    <div>
-      <a href="https://www.meta.com/">My Profile</a>
-    </div>
+    <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
